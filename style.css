@@ -102,8 +102,16 @@ text-align: center;}
   color:white;background-color: #000;
   border:1px solid black;margin-left:3px;
   padding: 12px 12px;border-radius: 3px;
-  text-align: center;
+  text-align: center;text-decoration: none;
   
+}
+.gallery-links a:hover{color:#ff0000;
+  background-color: #0082e6;transition: 0.5s}
+.gallery-link-top{margin:20px 40% 20px 40%;}
+/*styling ad to cart in product page*/
+.labels{color:#fff;background-color: orange;text-align: center;
+border-radius: 3px 3px;border:1px solid orange;
+padding:2px 2px;
 }
 .link-icon{
   width: 23px;
@@ -165,7 +173,7 @@ border-radius: 12px;
 text-align:center;
 }
 /*sresponsiveness using media queries*/
-@media screen and (max-width:2000px){
+@media screen and (max-width:692px){
  .read{
 text-align: center;
 color:#fff;
@@ -181,8 +189,6 @@ margin-left: 2%;
   text-decoration: none;
 
 }
-  .gallery-link-top{margin:20px 50% 20px 50%;}
-
 
 .gallery{
  width: 100%;
@@ -190,13 +196,14 @@ margin-left: 2%;
  flex-flow:row wrap;
  margin-left:10px;
 }
-.box{flex-basis: 17%;
+.box{flex-basis: 14%;
   width:100%;
   padding:10px;
   margin:8px;
   box-shadow: 1px;
   box-shadow: 1px 1px 15px 1px green;
 }
+.gallery-link-top{margin:20px 30% 20px 30%;}
 }
 
 @media screen and (max-width:439px){
@@ -266,10 +273,8 @@ border-radius:6px;margin-bottom: 12px;}
 
 .gallery-links a:hover{
   color:white;background-color: red;}
-  
+
 .gallery-link-top{margin:20px 25% 20px 25%;}
 
 }
-
-
 
