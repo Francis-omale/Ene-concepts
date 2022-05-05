@@ -6,6 +6,11 @@ body{
 font-family:arial,sans-serif;
 
 }
+.header{background-color: silver;
+padding:10px;
+font-size: 16px;
+text-align: center;
+}
 h4{color:#0082e6;}
 .container{
   margin:0;
@@ -130,45 +135,7 @@ width:100%; clear:left;
 }
 h2,h3,h4{text-align:center;}
 
-/* form styling */
-input [type=text], select, #fname,#lname {
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-display: inline-block;
 
-
-}
-input[type=submit] {
-background-color:green;
-color: white;
-padding: 14px 20px;
-margin:8px 0;
-cursor:pointer;
-border: none;
-border-radius:4px;
-
-} 
-
-input[type=reset]{background-color:red;
-color: white;
-padding: 14px 20px;
-margin:8px 0;
-cursor:pointer;
-border: none;
-border-radius:4px;
-
-}
-
-.myform {
-background-color: #f2f2f2;
-padding: 10px;
-margin:10% 25% 0 25%;
-border-radius: 12px;
-}
 .connect{
 text-align:center;
 }
@@ -240,13 +207,7 @@ padding:10px;
 font-size: 16px;
 text-align: center;
 }
-.myform {
-background-color: #f2f2f2;
-padding: 10px 33px;
-margin:10% 7% 10% 7%;
-border-radius: 12px;
-border:2px outset brown;
-}
+
 .link-icon{
   width: 48px;
   height: 48px;
