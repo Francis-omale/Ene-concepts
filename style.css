@@ -1,122 +1,301 @@
-<!DOCTYPE html>
-<HTML>
-  <head>
-<title>EneCommunication</title>
-<meta name="viewport" content="width=device-width, inital-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div class="product-heading-text">
-  <p class="strong">Bead Collections</p>
-</div>
-          <div class="gallery">
-            <div class="box">
-              <div class="image"><a href="images/bead.jpg">
-          <img class="ene-image" src="images/bead.jpg" alt="CEO"></a></div>
-          <div class="text">N1,000 </div>
-          <div class="cart"><label class="labels">Add to Cart</label></div>
-        </div>
+body{
+  margin:0;
+  max-width: 100%;
+  padding:0;
+  background-color: #fff;
+font-family:arial,sans-serif;
 
-      
-            <div class="box">
-              <div class="image">
-<a href="images/bat.jpg">
-          <img class="ene-image"  src="images/bat.jpg" alt="CEO"></a>
-          </div>
-          <div class="text">N1,000 </div>
-          <div class="cart"><label class="labels">Add to Cart</label></div>
-        </div>
+}
+.header{background-color: silver;
+padding:10px;
+font-size: 16px;
+text-align: center;
+}
+h4{color:#0082e6;}
+.container{
+  margin:0;
+  width:100%;
 
-            <div class="box">
-              <div class="image">
-                <a href="images/bats.jpg">
-                <img class="ene-image" src="images/bats.jpg" alt="bead"></a>
-              </div>
-              <div class="text">N1,000 </div>
-              <div class="cart"><label class="labels">Add to Cart</label></div>
-            </div>
+}
 
-            <div class="box">
-              <div class="image">
-                <a href="images/beats.jpg">
-          <img class="ene-image" src="images/beats.jpg" alt="bead"></a>
-        </div>
-        <div class="text">N800 </div>
-                      <div class="cart"><label class="labels">Add to Cart</label></div>
-      </div>
+.menu{width:100%;
+float:left;
+background-color: #0082e6;
+padding:0 0 12px;
+font-size: 20px;
+}
+.menu ul li{list-style-type: none;
+display:inline;
+}
+.menu li a{
+  text-decoration: none;
+  float:left;
+  display:block;
+  color:#fff;
+  padding:3px 10px;
 
-            <div class="box">
-              <div class="image">
-                <a href="images/beat.jpg">
-          <img class="ene-image" src="images/beat.jpg" alt="bead"></a>
-        </div>
-      <div class="text">N1,000 </div>
-                    <div class="cart"><label class="labels">Add to Cart</label></div>
-    </div>
+}
+.menu li a:hover{
+  background-color:#333;
+  color:#ccc;
+  transition:2s;
+  border-radius: 12px;
 
-            <div class="box">
-              <div class="image">
-                <a href="images/bams.jpg">
-          <img class="ene-image" src="images/bams.jpg" alt="bead"></a>
-        </div>
-        <div class="text">N1,000 </div>
-                      <div class="cart"><label class="labels">Add to Cart</label></div>
-      </div>
+}
 
-            <div class="box">
-              <div class="image">
-                <a href="images/bam.jpg">
-          <img class="ene-image" src="images/bam.jpg" alt="bead"></a>
-        </div>
-      <div class="text">N800 </div>
-                    <div class="cart"><label class="labels">Add to Cart</label></div>
-    </div>
+.content{
+clear:left;
+width:100%;
+float:left;
+width:100%;
 
-            <div class="box">
-              <div class="image">
-                <a href="images/bans.jpg">
-          <img class="ene-image" src="images/bans.jpg" alt="bead"></a>
-        </div>
-      <div class="text">N800 </div>
-                    <div class="cart"><label class="labels">Add to Cart</label></div>
-    </div>
+}
+section{
+  padding:0 12px 0 ;
+  clear: both;
+}
+.heading{
+  text-align: center;
+color: #0082e6;
+}
 
-            <div class="box">
-              <div class="image">
-                <a href="images/ban.jpg">
-          <img class="ene-image" src="images/ban.jpg" alt="bead"></a>
-        </div>
-      <div class="text">N1,000 </div>
-                    <div class="cart"><label class="labels">Add to Cart</label></div>
-    </div>
+.footer{width:100%;
+  clear:left;
+  background-color:#c0c0c0;
+  padding:0.2rem 0 0;
+  bottom:0;
+  position:all;
+}
+.read{
+text-align: center;
+color:#fff;
+background-color: #0082e6;
+border-radius: 12px 12px;
+}
+ a{
+  text-decoration: none;
+}
 
-            <div class="box">
-              <div class="image">
-                <a href="images/bean.jpg">
-          <img class="ene-image" src="images/bean.jpg" alt="CEO"></a>
-        </div>
-      <div class="text">N1,000 </div>
-                    <div class="cart"><label class="labels">Add to Cart</label></div>
-      </div>
-      </div>
+/*styling all profile images*/
+.ab-image{width:200px;border-radius: 150px;}
+.ene-image{
+  width:200px;height:200px;border-radius: 10px;
+}
+.ben-image{float:left;
+width: 200px;height:200px;border-radius: 20px 20px;}
 
-<div class="gallery-link-top">
-      <div class="gallery-links">
-      <a href="index.html">Home</a>
-      <a href="#">Next</a>
-    </div></div>
-  </div>
+.heading-cover{
+display: flex;
+}.ab-text{padding-left: 20px;}
 
-          <!-- adding footer  to the site-->
-          <div class="footer">
-            <div class="connect">
-            <h2>STAY CONECTED</h2>
-            </div>
-    <div class="contact-link">
-      <a href="http://www.facebook.com/viviana.omale.16"><img class="link-icon" src="images/facebook.png"></a> 
-      <a href="http://wa.link/5a81j9 "><img class="link-icon"class="link-icon"  src="images/whatsapp.png"></a>
-      <a href="http://gmail.com"><img class="link-icon" src="images/gmail.png"></a>
-  </div>
-</div>
-    </body>
-</HTML>
+.heading-top{margin-left: 42px;}
+.heading-cover2{margin-top: 5%;}
+
+/*stying the link-icon for the footer*/
+.contact-link{width: 100%;
+text-align: center;}
+
+/*product menu styling*/
+
+/*styling product gallery and boxes*/
+.product-heading-text{background-color:#000;}
+p.strong{color: #0082e6;
+  text-align:center;
+  font-size: 40px;
+  box-shadow: 10px 10px 15px 10px green;
+}
+.gallery{
+ width: 100%;
+ display: flex;
+ flex-flow:row wrap;
+ margin-left:10px;
+}
+.box{flex-basis: 17%;
+  width:100%;
+  padding:10px;
+  margin:8px;
+  box-shadow: 1px;
+  box-shadow: 1px 1px 15px 1px green;
+}
+.text{
+  text-align: center;
+  margin-top: 5px;
+}
+.gallery-links a{
+  color:white;background-color: #000;
+  border:1px solid black;margin-left:3px;
+  padding: 12px 12px;border-radius: 3px;
+  text-align: center;text-decoration: none;
+  
+}
+.gallery-links a:hover{color:#ff0000;
+  background-color: #0082e6;transition: 0.5s}
+.gallery-link-top{margin:20px 40% 20px 40%;}
+
+/*styling ad to cart in product page*/
+.labels{color:#fff;background-color: orange;
+  text-align: center;
+border-radius: 3px 3px;border:1px solid orange;
+padding:9px 9px ;margin-left: 52px;}
+.cart{
+  margin-top:24px;margin-bottom:12px 
+}
+.link-icon{
+  width: 53px;
+  height: 53px;
+  border-radius:15px 15px;
+ margin:0 2% 0;
+}
+.link-icon:hover{background-color:white;
+cursor: pointer}
+
+/*styling footer address*/
+.address{
+display:flex;
+font-size:16px;
+padding:2px 2px 2px 2px;
+color:#fff;
+background-color:black;
+width:100%; clear:left; 
+}
+h2,h3,h4{text-align:center;}
+
+
+.connect{
+text-align:center;
+}
+
+/*responsiveness using media queries*/
+@media screen and (max-width:792px){
+ .read{
+text-align: center;
+color:#fff;
+background-color: #0082e6;
+border-radius: 12px 12px;
+margin-right: 2% ;margin-bottom: 12px;
+margin-left: 2%;
+}
+
+
+
+ a{
+  text-decoration: none;
+
+}
+
+.gallery{
+ width: 100%;
+ display: flex;
+ flex-flow:row wrap;
+ margin-left:10px;
+}
+.box{flex-basis: 14%;
+  width:100%;
+  padding:10px;
+  margin:8px;
+  box-shadow: 1px;
+  box-shadow: 1px 1px 15px 1px green;
+}
+.gallery-link-top{margin:20px 30% 20px 30%;}
+}
+
+@media screen and (max-width:487px){
+  .read{
+text-align: center;
+color:#fff;
+background-color: #0082e6;
+border-radius: 12px 12px;
+margin-right: 5% ;
+margin-left: 5%;
+}
+ a{
+  text-decoration: none;
+}
+.menu li a{
+  text-decoration: none;
+  float:left;
+  display:block;
+  
+  color:#fff;
+  padding:1px 10px 0 1px;
+font-size: 1.2rem;}
+body{
+  margin:0;
+  width: 100%;
+  font-size: 17px;
+  padding:0;
+  background-color: #fff;
+font-family:arial,sans-serif;
+
+}
+.header{background-color: #fff;
+padding:10px;
+font-size: 16px;
+text-align: center;
+}
+
+.link-icon{
+  width: 48px;
+  height: 48px;
+  border-radius:15px 15px;
+ 
+}
+.logo{
+  font-family: ui-sans-serif;
+  font-size: 44px;
+}
+.ab-image{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-left: 25%;
+}
+.ene-image{
+width:142px;
+border-radius: 9px;
+
+}
+.gallery{
+ width: 100%;
+ display: flex;
+ flex-flow:row wrap;
+ margin-left:15px;
+}
+.box{flex-basis: 25%;
+border-radius:6px;margin-bottom: 12px;}
+.labels{color:#fff;background-color: orange;
+  text-align: center;
+border-radius: 3px 3px;border:1px solid orange;
+padding:9px 9px ;margin-left: 22px;}
+.cart{
+  margin-top:24px;margin-bottom:12px 
+}
+
+.gallery-links a:hover{
+  color:white;background-color: red;}
+
+.gallery-link-top{margin:20px 25% 20px 25%;}
+
+}
+
+
+@media screen and (max-width:314px){
+  .menu li a{
+  text-decoration: none;
+ text-align: center;
+  display:block;
+  color:#fff;
+  padding:3px 10px;
+}
+.gallery{
+ width:100%;
+ display: flex;
+ flex-flow:row wrap;
+ margin-left:10px;
+}
+.box{flex-basis: 85%;
+border-radius:6px;margin-bottom: 12px;}
+.labels{color:#fff;background-color: orange;
+  text-align: center;margin-left:32%;}
+  .image{margin-left: 53px;}
+}
